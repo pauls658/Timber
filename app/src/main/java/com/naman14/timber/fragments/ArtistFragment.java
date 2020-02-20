@@ -148,11 +148,11 @@ public class ArtistFragment extends Fragment {
                 mPreferences.setArtistSortOrder(SortOrder.ArtistSortOrder.ARTIST_NUMBER_OF_ALBUMS);
                 reloadAdapter();
                 return true;
-            case R.id.menu_show_as_list:
-                mPreferences.setArtistsInGrid(false);
-                isGrid = false;
-                updateLayoutManager(1);
-                return true;
+//            case R.id.menu_show_as_list:
+//                mPreferences.setArtistsInGrid(false);
+//                isGrid = false;
+//                updateLayoutManager(1);
+//                return true;
             case R.id.menu_show_as_grid:
                 mPreferences.setArtistsInGrid(true);
                 isGrid = true;

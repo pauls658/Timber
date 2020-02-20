@@ -21,9 +21,6 @@
         android:title="@string/menu_show_as">
         <menu>
             <item
-                android:id="@+id/menu_show_as_list"
-                android:title="@string/menu_show_as_entry_list"/>
-            <item
                 android:id="@+id/menu_show_as_grid"
                 android:title="@string/menu_show_as_entry_grid"/>
         </menu>

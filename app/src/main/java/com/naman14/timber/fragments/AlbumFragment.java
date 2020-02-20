@@ -156,11 +156,11 @@ public class AlbumFragment extends Fragment {
                 mPreferences.setAlbumSortOrder(SortOrder.AlbumSortOrder.ALBUM_NUMBER_OF_SONGS);
                 reloadAdapter();
                 return true;
-            case R.id.menu_show_as_list:
-                mPreferences.setAlbumsInGrid(false);
-                isGrid = false;
-                updateLayoutManager(1);
-                return true;
+//            case R.id.menu_show_as_list:
+//                mPreferences.setAlbumsInGrid(false);
+//                isGrid = false;
+//                updateLayoutManager(1);
+//                return true;
             case R.id.menu_show_as_grid:
                 mPreferences.setAlbumsInGrid(true);
                 isGrid = true;
