@@ -26,9 +26,6 @@
             <item
                 android:id="@+id/menu_show_as_grid"
                 android:title="@string/menu_show_as_entry_grid"/>
-            <item
-                android:id="@+id/menu_show_as_default"
-                android:title="@string/menu_show_as_entry_default"/>
         </menu>
     </item>
 

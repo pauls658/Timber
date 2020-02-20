@@ -243,11 +243,11 @@ public class PlaylistFragment extends Fragment {
                 initRecyclerView();
                 updateLayoutManager(2);
                 return true;
-            case R.id.menu_show_as_default:
-                mPreferences.setPlaylistView(Constants.PLAYLIST_VIEW_DEFAULT);
-                isDefault = true;
-                initPager();
-                return true;
+            //case R.id.menu_show_as_default:
+            //    mPreferences.setPlaylistView(Constants.PLAYLIST_VIEW_DEFAULT);
+            //    isDefault = true;
+            //    initPager();
+            //    return true;
             case R.id.action_view_auto_playlists:
                 if (showAuto) {
                     showAuto = false;
